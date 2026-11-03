@@ -1,0 +1,9 @@
+# 文件：components/bt_server/Kconfig.projbuild
+
+menu "BLE Server Configuration"
+    config ENABLE_BLE_SERVER
+        bool "Enable BLE Server"
+        default y
+        help
+            Enable the BLE server functionality.
+endmenu
